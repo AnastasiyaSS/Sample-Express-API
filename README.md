@@ -42,6 +42,21 @@
 
 ## Project Structure
 
+#### `server/server.js`
+
+In this file I worte a code, which works with API. Using this app in postman you can:
+1. GET the list of users.
+2. Create a new user with POST method.
+3. Fix data with PATCH method.
+4. DELETE the user you don't need anymore.
+5. DELETE the entire file from the boilerplate.
+
+Learned how to work with Node.js, Express, practiced with Postman. Diven into understanding API methods.
+
+Issues I faced during working on this code:
+1. How to build the structure of the code. For example such functions as saveFile and readWrite. These functions could be written as one, but I decided that this way is more convinient for me.
+2. Had some difficulties with async/await.
+
 #### `client/`
 
 You will write your app in this folder. You will spend most of your time in here.

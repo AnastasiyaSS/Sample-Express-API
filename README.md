@@ -31,15 +31,6 @@
   $ yarn run dev
   ```
 
-## Features
-
-* Redux
-* Modern ES6 for using template strings, JSX syntax, object destructuring arrow functions and more
-* Babel for old browser support
-* SASS/SCSS: make styles greate again, with no tears
-* React Router
-* Hot Module Replacement for comfortable development
-
 ## Project Structure
 
 #### `server/server.js`
@@ -150,15 +141,3 @@ yarn run lint:server
 ```
 
 Will analyse only  `server/**/**.js` files
-
-#### Docker
-Nginx web server working on 443, 80 ports on localhost
-
-```run production
-docker-compose -f .\docker\PROD.docker-compose.yml up (Options: --build for build, -d to detach )
-docker-compose -f .\docker\PROD.docker-compose.yml down (To stop contaiters)
-```
-```run develop
-docker-compose -f .\docker\DEV.docker-compose.yml up (Options: --build for build, -d to detach )
-docker-compose -f .\docker\DEV.docker-compose.yml down (To stop contaiters)
-```
